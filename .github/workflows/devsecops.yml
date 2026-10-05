@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Dependances
         run: |
-          ls requirements.txt
+          cat /requirements.txt
   Dockerfile:
     runs-on: ubuntu-latest
     needs: Dependances
