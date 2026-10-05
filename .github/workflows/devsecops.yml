@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Dependances
         run: |
-          cat ../requirements.txt
+          echo $PWD
   Dockerfile:
     runs-on: ubuntu-latest
     needs: Dependances
